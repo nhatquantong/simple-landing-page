@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
 }
 button{
     background-color: transparent;
@@ -12,7 +16,9 @@ button{
     border: solid 5px #F5F5F5;
     text-transform: uppercase;
     font-weight: 600;
-
+    font-size: 20px;
+    width: 400px;
+    height: 75px;
     transition: transform 0.3s, background-color 0.3s, color 0.3s;
 }
 button:hover{
@@ -21,11 +27,12 @@ button:hover{
    background-color: #F5F5F5;
    color: #1F1F1f;
    border: solid 5px #F5F5F5;
+   cursor: pointer;
 }
 header{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(159Z_2107.w026.n002.628B.p1.628.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(159Z_2107.w026.n002.628B.p1.628.jpg);
     background-size: cover;
 
 }
@@ -36,17 +43,15 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    filter: brightness(100%);
+
 }
-.logo{
-    font-size:2em;
-    letter-spacing: 2px;
-}
+
 .menu a{
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
     font-size: 20px;
+    font-family: 'Roboto Slab', serif;
 }
 .container{
     position: absolute;
@@ -62,10 +67,18 @@ nav{
 }
 .container span{
     letter-spacing: 5px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 .container h1{
     font-size: 3.5em;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.logo{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+img{
+    width: 60%;
+    height: auto;
 }
 
